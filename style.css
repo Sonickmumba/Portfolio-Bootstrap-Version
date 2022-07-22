@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap");
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  background-color: #f8f9fa;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+.logo {
+  color: #6070ff;
+}
+
+.fluid-container {
+  height: 916px;
+  border-bottom-left-radius: 150px;
+  background: #fff url(./images/Header-desktop-bg.png) 100% 119px no-repeat;
+  background-size: contain;
+}
+
+.headline {
+  width: 920px;
+  height: 122px;
+  line-height: 60px;
+  color: #172b4d;
+  letter-spacing: 0.37px;
+}
+
+.connect {
+  font-size: 1rem;
+  color: #7f8cff;
+}
+
+.container-headline {
+  padding-top: 359px;
+  height: 268px;
+  margin: 0 260px;
+}
+
+.description-div p {
+  color: #344563;
+}
+
+.card {
+  flex-direction: row;
+  align-items: center;
+  border-bottom-left-radius: 24px;
+  height: 446px;
+}
+
+.list-group {
+  gap: 10px;
+}
+
+.card-con {
+  padding: 30%;
+  top: auto;
+  bottom: auto;
+}
+
+.card-title {
+  width: 496px;
+  height: 46px;
+}
+
+.card-text {
+  color: #344563;
+}
+
+.card-con .btn {
+  margin: 1rem;
+}
+
+.no-gutters {
+  width: 1090px;
+  height: 446px;
+}
+
+.img-div {
+  height: 398px;
+  width: 544px;
+}
+
+.main-col {
+  width: 530px;
+  height: 396px;
+}
+
+.card-img1 {
+  width: 100%;
+  height: 396px;
+  object-fit: contain;
+}
+
+.work {
+  color: #344563;
+}
+
+.year,
+.tool {
+  color: #7a869a;
+}
+
+.counter-img {
+  width: 8px;
+  height: 8px;
+  object-fit: contain;
+}
+
+.card-frameworks li {
+  background-color: #ebebff;
+  color: #6070ff;
+}
+
+.card-button {
+  width: 150px;
+  height: 49px;
+}
+
+.main-container {
+  width: 100%;
+  height: 924px;
+  background: var(--bs-white);
+  border-top-right-radius: 150px;
+}
+
+.contact-container {
+  width: 1090px;
+  height: 496px;
+  margin-left: 95px;
+  margin-right: 95px;
+  margin-top: -200px;
+}
+
+.contact-div {
+  width: 447px;
+  height: 392px;
+}
+
+.contact-head {
+  height: 114px;
+  color: var(--bs-body-color);
+}
+
+.contact-desc {
+  width: 447px;
+  height: 102px;
+}
+
+.contact-btn {
+  width: 150px;
+  height: 49px;
+}
+
+.skill-lang {
+  width: 684px;
+  height: 360px;
+  background: var(--bs-white);
+  margin-top: -70px;
+}
+
+.down-btn {
+  background-color: #fff;
+}
+
+.lang-skill {
+  height: 216px;
+  width: 684px;
+}
+
+.lang {
+  width: 414px;
+  height: 144px;
+}
+
+.lang li {
+  width: 122px;
+  height: 120px;
+  background-color: #f7f7f9;
+}
+
+.css {
+  width: 72px;
+  height: 80px;
+}
+
+.line {
+  background: var(--bs-white);
+}
+
+.contact-clean {
+  padding: 80px 0;
+  height: 846px;
+  border-top-left-radius: 150px;
+  background: #6070ff url("./images/contact-form-background-shapes.svg") 100% 79px no-repeat;
+  margin-top: -280px;
+}
+
+@media (max-width: 767px) {
+  .contact-clean {
+    padding: 20px 0;
+  }
+}
+
+.contact-clean form {
+  max-width: 480px;
+  width: 447px;
+  margin: 0 auto;
+  background-color: #6070ff;
+  color: #505e6c;
+}
+
+@media (max-width: 767px) {
+  .contact-clean form {
+    padding: 30px;
+  }
+}
+
+.contact-clean h2 {
+  margin-top: 5px;
+  font-size: 40px;
+  margin-bottom: 36px;
+  color: #fff;
+  line-height: 52px;
+  font-weight: 700;
+}
+
+.contact-clean p {
+  width: 569px;
+  height: 102px;
+  font-size: 20px;
+  text-align: center;
+  color: #ebebff;
+  font-weight: 400;
+  margin-left: -60px;
+}
+
+.contact-clean form .form-control {
+  background: #fff;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05);
+  height: 42px;
+}
+
+.contact-clean form .form-control:focus {
+  border: 1px solid #b2b2b2;
+}
+
+.contact-clean form textarea.form-control {
+  min-height: 100px;
+  max-height: 260px;
+  height: 170px;
+  resize: none;
+}
+
+.contact-clean form .btn {
+  box-shadow: none;
+  text-shadow: none;
+  opacity: 0.9;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  line-height: 1;
+  outline: none !important;
+  width: 170px;
+  height: 48px;
+  font-weight: 500;
+  margin: 0 134px;
+}
+
+.contact-clean form .btn:hover {
+  opacity: 1;
+}
+
+.contact-clean form .btn:active {
+  transform: translateY(1px);
+}
+
+.contact-clean form .btn-primary {
+  background-color: #fff !important;
+  margin-top: 15px;
+  color: #6070ff;
+}
